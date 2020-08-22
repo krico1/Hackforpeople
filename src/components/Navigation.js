@@ -5,14 +5,20 @@ import * as ROUTES from '../constants/routes';
  
 const Navigation = () => (
   <div>
-    <ul>
-      <li>
-        <Link to={ROUTES.CHAT}>Chat</Link>
-      </li>
-      <li>
-        <Link to={ROUTES.LANDING}>Meditation</Link>
-      </li>
-    </ul>
+    
+        <Link to={ROUTES.CHAT}>
+            <button className="button1">
+                Need Help?
+            </button>
+        </Link>
+      
+
+        <Link to={ROUTES.LANDING}>
+            <button className="button">
+                Need to just relax?
+            </button>
+        </Link>
+     
   </div>
 );
  

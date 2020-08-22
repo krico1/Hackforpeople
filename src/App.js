@@ -22,9 +22,6 @@ function App() {
 
       </div>
   </Router>
-
-  
-      {/* <Chat/> */}
     </div>
   );
 }
