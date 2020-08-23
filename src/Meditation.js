@@ -1,4 +1,5 @@
 import React from "react";
+import './Meditation.css'
 
 
 function Meditation() {
@@ -12,8 +13,11 @@ function Meditation() {
   }, [counter]);
 
   return (
-    <div className="App">
-      <div>Countdown: {counter}</div>
+    <div className="max-width-container">
+      <h1>Continue meditating till the countdown finishes. You will hear a sound when the countdown ends and you may then stop and feel one with yourself</h1>
+      <div className = "countdown">
+        <strong>Countdown: {counter}</strong>
+        </div>
     </div>
   );
 }

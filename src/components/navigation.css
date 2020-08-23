@@ -1,0 +1,35 @@
+.navigate {
+    background-color: rebeccapurple;
+}
+
+.max-width-container {
+    width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+.navigation-button {
+    height: 50px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 5px;
+    color: #282c34;
+    font-style: bold;
+    border: solid #282c34;
+    padding: 5%;
+}
+
+.navigation-home-button {
+    height: 50px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 5px;
+    color: red;
+    border: none;
+}
+
+.navigation-container {
+    padding: 0% 35%;
+}

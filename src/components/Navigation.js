@@ -1,25 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './navigation.css'
  
 import * as ROUTES from '../constants/routes';
  
 const Navigation = () => (
-  <div>
-    
-        <Link to={ROUTES.CHAT}>
-            <button className="button1">
-                Need Help?
-            </button>
-        </Link>
-      
+    <div className = "navigate">
+    <div className = "max-width-container">
 
-        <Link to={ROUTES.LANDING}>
-            <button className="button">
-                Need to just relax?
-            </button>
-        </Link>
-     
-  </div>
+        <div className = "navigation-container">
+
+  
+      <Link to={ROUTES.CHAT}>
+          <button className="navigation-button">
+              Need Help?
+          </button>
+      </Link>
+    
+
+      <Link to={ROUTES.LANDING}>
+          <button className="navigation-button">
+              Need to just relax?
+          </button>
+      </Link>
+      </div>
+      </div>
+   
+</div>
 );
  
 export default Navigation;

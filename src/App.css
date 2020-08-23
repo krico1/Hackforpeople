@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-color: rebeccapurple;
+  min-height: 100em;
 }
+
 
 .App-logo {
   height: 40vmin;

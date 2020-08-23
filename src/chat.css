@@ -1,0 +1,10 @@
+.max-width-container {
+    width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .chat-page-text {
+      padding-bottom: 1000px;
+  }

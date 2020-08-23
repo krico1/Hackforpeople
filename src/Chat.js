@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './chat.css'
 
 class KommunicateChat extends Component {
     constructor(props){
@@ -15,7 +16,9 @@ class KommunicateChat extends Component {
     }
     render() {
         return(
-            <div></div>
+            <div className = "max-width-container">
+                <h1 className ="chat-page-text">Welcome to the chat feature, press the button on the left bottom corner to chat with our virtual assistant who can also guide you record yur events and get in touch your emergency contact</h1>
+            </div>
         )
     }
 }
