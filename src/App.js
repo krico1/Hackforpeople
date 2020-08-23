@@ -2,7 +2,7 @@ import React from 'react';
 import Chat from "./Chat.js"
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from "./components/Navigation.js";
-import Meditation from "./Meditation.js";
+import Page from "./Meditation.js";
 
 // import AdminPage from './Admin';
  
@@ -18,7 +18,7 @@ function App() {
       <hr />
  
       <Route exact path={ROUTES.CHAT} component={Chat} />
-      <Route exact path={ROUTES.LANDING} component={Meditation} />
+      <Route exact path={ROUTES.LANDING} component={Page} />
 
       </div>
   </Router>
